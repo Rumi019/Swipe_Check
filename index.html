@@ -64,7 +64,11 @@
       }
 
       var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/Swit.loader.js";
       var config = {
+        dataUrl: buildUrl + "/Swit.data",
+        frameworkUrl: buildUrl + "/Swit.framework.js",
+        codeUrl: buildUrl + "/Swit.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "dealcart",
         productName: "dc_crush",
